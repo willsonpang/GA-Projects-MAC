@@ -1,0 +1,78 @@
+[     UTC     ] Logs for tsl6hqnxcsamy2cxwhsjze.streamlit.app/
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[14:14:45] 🖥 Provisioning machine...
+
+[14:14:45] 🎛 Preparing system...
+
+[14:14:45] ⛓ Spinning up manager process...
+
+[14:14:53] 🚀 Starting up repository: 'repo', branch: 'main', main module: 'Project-5-Social-Media-Driven-Stock-Picks/streamlit/main.py'
+
+[14:14:53] 🐙 Cloning repository...
+
+[14:14:56] 🐙 Cloning into '/mount/src/repo'...
+
+[14:14:56] 🐙 Cloned repository!
+
+[14:14:56] 🐙 Pulling code changes from Github...
+
+[14:14:57] 📦 Processing dependencies...
+
+
+https://tsl6hqnxcsamy2cxwhsjze.streamlit.app/
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Collecting plotly==5.9.0
+
+  Downloading plotly-5.9.0-py2.py3-none-any.whl (15.2 MB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.2/15.2 MB 142.6 MB/s eta 0:00:00[2023-08-02 14:14:59.133421] 
+
+ERROR: Cannot install plotly==5.15.0 and plotly==5.9.0 because these package versions have conflicting dependencies.
+
+
+The conflict is caused by:
+
+    The user requested plotly==5.9.0
+
+    The user requested plotly==5.15.0
+
+
+To fix this you could try to:
+
+1. loosen the range of package versions you've specified
+
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+
+WARNING: You are using pip version 22.0.3; however, version 23.2.1 is available.
+
+You should consider upgrading via the '/home/adminuser/venv/bin/python -m pip install --upgrade pip' command.
+
+Checking if Streamlit is installed
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+[14:15:00] ❗️ installer returned a non-zero exit code
+
+[14:15:00] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+
+[14:16:34] ❗️ Streamlit server consistently failed status checks
+
+[14:16:34] ❗️ Please fix the errors, push an update to the git repo, or reboot the app.
+
+[14:17:22] 🐙 Pulling code changes from Github...
+
+[14:17:24] 📦 Processing dependencies...
+
+[14:17:24] 📦 Processed dependencies!
+
+[14:17:25] 🔄 Updated app!
